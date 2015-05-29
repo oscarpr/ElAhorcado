@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    background-color: #ccccff;
+}
+
+.container-fluid{
+    background-color: #ffffff;
+    margin: 50px ;    
+}

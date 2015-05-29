@@ -1,0 +1,26 @@
+ul li{
+    display: inline;
+}
+
+#muneco{
+    float:left;
+}
+
+header{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: #ccccff;
+}
+
+.container{
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+#alfabeto{
+    margin-bottom: 20px;
+}

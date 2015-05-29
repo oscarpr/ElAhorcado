@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>El Ahorcado</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>        
+        <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+        <link href="css/cssJuego.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>El Ahorcado</h1>
+                <select id="categoriaSLCT" onchange="categoria()">
+                        <option>Escoja su categoria...</option>
+                        <option value="0">Random</option>
+                        <option value="1">City</option>
+                        <option value="2">Company</option>
+                        <option value="3">Full name</option>
+                </select>
+            </header>
+            <div>                                                
+                <div class="row">
+                    <div id="muneco"></div>
+                    <div><ul id="espacios"></ul></div>
+                </div>
+                <br/>
+                <div id="alfabeto" >
+                    <button type="button" class="btn btn-default" id="alf_1" onclick="letra('a','A',1)">A</button>
+                    <button type="button" class="btn btn-default" id="alf_2" onclick="letra('b','B',2)">B</button>
+                    <button type="button" class="btn btn-default" id="alf_3" onclick="letra('c','C',3)">C</button>
+                    <button type="button" class="btn btn-default" id="alf_4" onclick="letra('d','D',4)">D</button>
+                    <button type="button" class="btn btn-default" id="alf_5" onclick="letra('e','E',5)">E</button>
+                    <button type="button" class="btn btn-default" id="alf_6" onclick="letra('f','F',6)">F</button>
+                    <button type="button" class="btn btn-default" id="alf_7" onclick="letra('g','G',7)">G</button>
+                    <button type="button" class="btn btn-default" id="alf_8" onclick="letra('h','H',8)">H</button>
+                    <button type="button" class="btn btn-default" id="alf_9" onclick="letra('i','I',9)">I</button>
+                    <button type="button" class="btn btn-default" id="alf_10" onclick="letra('j','J',10)">J</button>
+                    <button type="button" class="btn btn-default" id="alf_11" onclick="letra('k','K',11)">K</button>
+                    <button type="button" class="btn btn-default" id="alf_12" onclick="letra('l','L',12)">L</button>
+                    <button type="button" class="btn btn-default" id="alf_13" onclick="letra('m','M',13)">M</button>
+                    <button type="button" class="btn btn-default" id="alf_14" onclick="letra('n','N',14)">N</button>
+                    <button type="button" class="btn btn-default" id="alf_15" onclick="letra('o','O',15)">O</button>
+                    <button type="button" class="btn btn-default" id="alf_16" onclick="letra('p','P',16)">P</button>
+                    <button type="button" class="btn btn-default" id="alf_17" onclick="letra('q','Q',17)">Q</button>
+                    <button type="button" class="btn btn-default" id="alf_18" onclick="letra('r','R',18)">R</button>
+                    <button type="button" class="btn btn-default" id="alf_19" onclick="letra('s','S',19)">S</button>
+                    <button type="button" class="btn btn-default" id="alf_20" onclick="letra('t','T',20)">T</button>
+                    <button type="button" class="btn btn-default" id="alf_21" onclick="letra('u','U',21)">U</button>
+                    <button type="button" class="btn btn-default" id="alf_22" onclick="letra('v','V',22)">V</button>
+                    <button type="button" class="btn btn-default" id="alf_23" onclick="letra('w','W',23)">W</button>
+                    <button type="button" class="btn btn-default" id="alf_24" onclick="letra('x','X',24)">X</button>
+                    <button type="button" class="btn btn-default" id="alf_25" onclick="letra('y','Y',25)">Y</button>
+                    <button type="button" class="btn btn-default" id="alf_26" onclick="letra('z','Z',26)">Z</button>
+                </div>
+                <div id="result"></div>
+            </div>
+        </div>                
+        <script src="js/JSJuego.js" type="text/javascript"></script>
+    </body>
+</html>
